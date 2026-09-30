@@ -4,9 +4,10 @@ Practical, defensive checklists for website, WordPress, server, account and inci
 
 These materials are written for system owners, administrators, defenders and security professionals working on systems they own or are explicitly authorized to protect. They are designed to support structured response and recovery; they are not a substitute for professional, legal, regulatory or insurer guidance.
 
-## Available checklist
+## Available checklists
 
 - [Website & WordPress Incident Response Checklist](checklists/website-wordpress-incident-response.md) — preserve evidence, contain the incident, investigate the scope, eradicate persistence, recover safely and harden the environment.
+- [Compromised Account Recovery Checklist](checklists/compromised-account-recovery.md) — regain control, preserve evidence, revoke attacker persistence, restore strong authentication and check linked email, social-media, developer and cloud access.
 
 ## How to use this repository
 
@@ -18,7 +19,6 @@ These materials are written for system owners, administrators, defenders and sec
 
 ## Planned checklists
 
-- Compromised Account Recovery
 - Server Hardening
 - Phishing Response
 - DDoS Initial Response
@@ -34,6 +34,8 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 - [NIST SP 800-61 Rev. 3 — Incident Response Recommendations and Considerations](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
 - [WordPress — FAQ: My site was hacked](https://wordpress.org/documentation/article/faq-my-site-was-hacked/)
 - [WordPress — Hardening WordPress](https://developer.wordpress.org/advanced-administration/security/hardening/)
+- [Google Account Help — Secure a hacked or compromised Google Account](https://support.google.com/accounts/answer/6294825?hl=en)
+- [GitHub Docs — Preventing unauthorized access](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/preventing-unauthorized-access)
 
 ## Responsible use
 
