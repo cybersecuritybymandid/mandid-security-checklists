@@ -8,6 +8,7 @@ These materials are written for system owners, administrators, defenders and sec
 
 - [Website & WordPress Incident Response Checklist](checklists/website-wordpress-incident-response.md) — preserve evidence, contain the incident, investigate the scope, eradicate persistence, recover safely and harden the environment.
 - [Compromised Account Recovery Checklist](checklists/compromised-account-recovery.md) — regain control, preserve evidence, revoke attacker persistence, restore strong authentication and check linked email, social-media, developer and cloud access.
+- [Server Hardening Checklist](checklists/server-hardening.md) — reduce attack surface, secure privileged access, restrict network exposure, protect secrets, strengthen logging and validate recovery.
 
 ## How to use this repository
 
@@ -19,7 +20,6 @@ These materials are written for system owners, administrators, defenders and sec
 
 ## Planned checklists
 
-- Server Hardening
 - Phishing Response
 - DDoS Initial Response
 
@@ -36,6 +36,8 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 - [WordPress — Hardening WordPress](https://developer.wordpress.org/advanced-administration/security/hardening/)
 - [Google Account Help — Secure a hacked or compromised Google Account](https://support.google.com/accounts/answer/6294825?hl=en)
 - [GitHub Docs — Preventing unauthorized access](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/preventing-unauthorized-access)
+- [NIST SP 800-123 — Guide to General Server Security](https://csrc.nist.gov/pubs/sp/800/123/final)
+- [CIS Benchmarks — Secure configuration recommendations](https://www.cisecurity.org/cis-benchmarks-overview)
 
 ## Responsible use
 
