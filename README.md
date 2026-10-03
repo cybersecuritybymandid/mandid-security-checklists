@@ -10,6 +10,7 @@ These materials are written for system owners, administrators, defenders and sec
 - [Compromised Account Recovery Checklist](checklists/compromised-account-recovery.md) — regain control, preserve evidence, revoke attacker persistence, restore strong authentication and check linked email, social-media, developer and cloud access.
 - [Server Hardening Checklist](checklists/server-hardening.md) — reduce attack surface, secure privileged access, restrict network exposure, protect secrets, strengthen logging and validate recovery.
 - [Phishing Response Checklist](checklists/phishing-response.md) — preserve the original message, verify requests safely, scope delivery and interaction, contain credential or session compromise and recover affected accounts and endpoints.
+- [DDoS Initial Response Checklist](checklists/ddos-initial-response.md) — verify the outage, preserve traffic evidence, identify the exhausted resource, coordinate upstream mitigation, protect the origin and recover service deliberately.
 
 ## How to use this repository
 
@@ -19,9 +20,9 @@ These materials are written for system owners, administrators, defenders and sec
 4. Record every command, account change, file replacement and external notification.
 5. Adapt the steps to the hosting architecture, business impact and applicable legal requirements.
 
-## Planned checklists
+## Planned defensive artifacts
 
-- DDoS Initial Response
+- Incident Communications and Evidence Log Template
 
 ## Need help with an active incident?
 
@@ -42,6 +43,9 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 - [NIST — Phishing guidance for small businesses](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/phishing)
 - [Microsoft Support — Protect yourself from phishing](https://support.microsoft.com/en-us/security/protect-yourself-from-phishing)
 - [Google Gmail Help — Avoid and report phishing emails](https://support.google.com/mail/answer/8253?hl=en)
+- [CISA, FBI and MS-ISAC — Understanding and Responding to Distributed Denial-of-Service Attacks](https://www.cisa.gov/sites/default/files/publications/understanding-and-responding-to-ddos-attacks_508c.pdf)
+- [UK National Cyber Security Centre — Denial of Service guidance](https://www.ncsc.gov.uk/collection/denial-service-dos-guidance-collection)
+- [Cloudflare Developers — How to prevent DDoS attacks](https://developers.cloudflare.com/learning-paths/prevent-ddos-attacks/concepts/ddos-prevention/)
 
 ## Responsible use
 
