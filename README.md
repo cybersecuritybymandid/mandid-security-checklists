@@ -4,13 +4,14 @@ Practical, defensive checklists for website, WordPress, server, account and inci
 
 These materials are written for system owners, administrators, defenders and security professionals working on systems they own or are explicitly authorized to protect. They are designed to support structured response and recovery; they are not a substitute for professional, legal, regulatory or insurer guidance.
 
-## Available checklists
+## Available defensive artifacts
 
 - [Website & WordPress Incident Response Checklist](checklists/website-wordpress-incident-response.md) — preserve evidence, contain the incident, investigate the scope, eradicate persistence, recover safely and harden the environment.
 - [Compromised Account Recovery Checklist](checklists/compromised-account-recovery.md) — regain control, preserve evidence, revoke attacker persistence, restore strong authentication and check linked email, social-media, developer and cloud access.
 - [Server Hardening Checklist](checklists/server-hardening.md) — reduce attack surface, secure privileged access, restrict network exposure, protect secrets, strengthen logging and validate recovery.
 - [Phishing Response Checklist](checklists/phishing-response.md) — preserve the original message, verify requests safely, scope delivery and interaction, contain credential or session compromise and recover affected accounts and endpoints.
 - [DDoS Initial Response Checklist](checklists/ddos-initial-response.md) — verify the outage, preserve traffic evidence, identify the exhausted resource, coordinate upstream mitigation, protect the origin and recover service deliberately.
+- [Incident Communications and Evidence Log Template](templates/incident-communications-evidence-log.md) — coordinate responders, separate facts from hypotheses, track communications and decisions, preserve evidence metadata and maintain chain of custody.
 
 ## How to use this repository
 
@@ -22,7 +23,7 @@ These materials are written for system owners, administrators, defenders and sec
 
 ## Planned defensive artifacts
 
-- Incident Communications and Evidence Log Template
+- Ransomware Initial Response Checklist
 
 ## Need help with an active incident?
 
@@ -46,6 +47,9 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 - [CISA, FBI and MS-ISAC — Understanding and Responding to Distributed Denial-of-Service Attacks](https://www.cisa.gov/sites/default/files/publications/understanding-and-responding-to-ddos-attacks_508c.pdf)
 - [UK National Cyber Security Centre — Denial of Service guidance](https://www.ncsc.gov.uk/collection/denial-service-dos-guidance-collection)
 - [Cloudflare Developers — How to prevent DDoS attacks](https://developers.cloudflare.com/learning-paths/prevent-ddos-attacks/concepts/ddos-prevention/)
+- [NIST SP 800-86 — Guide to Integrating Forensic Techniques into Incident Response](https://csrc.nist.gov/pubs/sp/800/86/final)
+- [CISA — Federal Government Cybersecurity Incident and Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/2023-01/federal_government_cybersecurity_incident_and_vulnerability_response_playbooks_508c_5.pdf)
+- [FIRST — Traffic Light Protocol (TLP) Version 2.0](https://www.first.org/tlp/)
 
 ## Responsible use
 
