@@ -11,6 +11,7 @@ These materials are written for system owners, administrators, defenders and sec
 - [Server Hardening Checklist](checklists/server-hardening.md) — reduce attack surface, secure privileged access, restrict network exposure, protect secrets, strengthen logging and validate recovery.
 - [Phishing Response Checklist](checklists/phishing-response.md) — preserve the original message, verify requests safely, scope delivery and interaction, contain credential or session compromise and recover affected accounts and endpoints.
 - [DDoS Initial Response Checklist](checklists/ddos-initial-response.md) — verify the outage, preserve traffic evidence, identify the exhausted resource, coordinate upstream mitigation, protect the origin and recover service deliberately.
+- [Ransomware Initial Response Checklist](checklists/ransomware-initial-response.md) — isolate affected systems, protect backups, preserve evidence, contain identity and remote access, assess data theft and rebuild through a controlled recovery process.
 - [Incident Communications and Evidence Log Template](templates/incident-communications-evidence-log.md) — coordinate responders, separate facts from hypotheses, track communications and decisions, preserve evidence metadata and maintain chain of custody.
 
 ## How to use this repository
@@ -20,10 +21,6 @@ These materials are written for system owners, administrators, defenders and sec
 3. Preserve evidence before changing compromised systems whenever it is safe to do so.
 4. Record every command, account change, file replacement and external notification.
 5. Adapt the steps to the hosting architecture, business impact and applicable legal requirements.
-
-## Planned defensive artifacts
-
-- Ransomware Initial Response Checklist
 
 ## Need help with an active incident?
 
@@ -50,6 +47,10 @@ MANDID supports remote incident containment, investigation, recovery and hardeni
 - [NIST SP 800-86 — Guide to Integrating Forensic Techniques into Incident Response](https://csrc.nist.gov/pubs/sp/800/86/final)
 - [CISA — Federal Government Cybersecurity Incident and Vulnerability Response Playbooks](https://www.cisa.gov/sites/default/files/2023-01/federal_government_cybersecurity_incident_and_vulnerability_response_playbooks_508c_5.pdf)
 - [FIRST — Traffic Light Protocol (TLP) Version 2.0](https://www.first.org/tlp/)
+- [CISA, FBI, NSA and MS-ISAC — #StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
+- [FBI Internet Crime Complaint Center — Ransomware](https://www.ic3.gov/CrimeInfo/Ransomware)
+- [UK National Cyber Security Centre — Ransomware attack](https://www.ncsc.gov.uk/section/respond-recover/ransomware-attack)
+- [UK National Cyber Security Centre — Mitigating malware and ransomware attacks](https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks)
 
 ## Responsible use
 
